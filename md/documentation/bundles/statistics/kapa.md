@@ -42,6 +42,8 @@ The values in the layer allowed values must be a subset of layers recognized by 
   * "Suuralue"
   * "Seutukunta"
   * "Nuts1"
+  * "Euralueet"
+  * "Eurooppa"
 
 ## Indicator Data
  
