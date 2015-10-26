@@ -1,3 +1,5 @@
+# KaPa REST Interface Specification
+
 Documentation for the KaPa REST interface for the Oskari map.
 
 The KaPa interface consists of two REST endpoints:
@@ -10,7 +12,7 @@ The KaPa interface consists of two REST endpoints:
 
 KaPa API URL is configured to Oskari as the property "kapa.baseurl". It is recommended that this ends with "/rest".
 
-== Indicator list ==
+## Indicator List
 
 The data model consists of a set of indicators defined for a set of selectors.
 
@@ -41,8 +43,8 @@ The values in the layer allowed values must be a subset of layers recognized by 
   * "Seutukunta"
   * "Nuts1"
 
-== Indicator data ==
-  
+## Indicator Data
+ 
 The data returned by this API is a list of objects with region ids and respective values for this indicator:
   * region: A code for the region in question. These _MUST_ follow SotkaNET region "code" values.
     * See: https://opensource.thl.fi/wiki05/pages/viewpage.action?pageId=8947502#SOTKAnetRESTAPI%28avoimendatanrajapinta%29-Aluelistaus
