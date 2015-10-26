@@ -5,10 +5,10 @@ Documentation for the KaPa REST interface for the Oskari map.
 The KaPa interface consists of two REST endpoints:
   * Indicator list (HTTP GET):
     * URL: [KaPa API URL]/1.0/indicators
-    * Example response: KapaIndicators.json
+    * Example response: [KapaIndicators.json](https://github.com/keskival/oskari-server/blob/develop/control-statistics/src/test/resources/fi/nls/oskari/control/statistics/plugins/kapa/KapaIndicators.json)
   * Indicator data (HTTP GET):
     * URL: [KaPa API URL]/1.0/indicators/[indicator_id]
-    * Example response: KapaIndicatorData.json
+    * Example response: [KapaIndicatorData.json](https://github.com/keskival/oskari-server/blob/develop/control-statistics/src/test/resources/fi/nls/oskari/control/statistics/plugins/kapa/KapaIndicatorData.json)
 
 KaPa API URL is configured to Oskari as the property "kapa.baseurl". It is recommended that this ends with "/rest".
 
